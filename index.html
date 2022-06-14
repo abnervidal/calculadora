@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="calculo.css">
+		
+	</head>
+
+	<script type="text/javascript" src="calculo.js"></script>
+	
+	<body>
+		<h1>CALCULADORA</h1>
+		
+		<div class="corpo"> 
+			<p id="tela" minlength="10"></p>
+			<table>
+				<tr>
+					<td><div class="botao" onclick="limpar()">AC</div></td>
+					<td><div class="botao" onclick="apagar()"><</div></td>
+					<td><div class="botao" onclick="insert('÷')">÷</div></td>
+					<td><div class="botao" onclick="insert('*')">x</div></td>
+				</tr>
+				<tr>
+					<td><div class="botao" onclick="insert('7')">7</div></td>
+					<td><div class="botao" onclick="insert('8')">8</div></td>
+					<td><div class="botao" onclick="insert('9')">9</div></td>
+					<td><div class="botao" onclick="insert('-')">-</div></td>
+				</tr>
+				<tr>
+					<td><div class="botao" onclick="insert('4')">4</div></td>
+					<td><div class="botao" onclick="insert('5')">5</div></td>
+					<td><div class="botao" onclick="insert('6')">6</div></td>
+					<td><div class="botao" onclick="insert('+')">+</div></td>
+				</tr>
+				<tr>
+					<td><div class="botao" onclick="insert('1')">1</div></td>
+					<td><div class="botao" onclick="insert('2')">2</div></td>
+					<td><div class="botao" onclick="insert('3')">3</div></td>
+					<td rowspan="2"><div class="botao" style="height: 142px;" onclick="igual()">=</div></td>
+				</tr>
+				<tr>
+					<td colspan="2"><div class="botao" style="width: 142px;" onclick="insert('0')">0</div></td>
+					<td><div class="botao" onclick="insert(',')">,</div></td>
+				</tr>
+				
+			</table>
+			
+		</div>
+		<footer class="rodape">
+			<p>Copyright &copy; 2022 - by Abner Vidal<br>
+			<a href="https://www.linkedin.com/in/abner-vidal-41a56a167/" target="_blank">Linkedin</a>
+			| 
+			<a href="https://github.com/abnervidal" target="_blank">Github</a></p>
+		</footer>
+			</body>
+</html>
